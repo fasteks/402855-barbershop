@@ -8,10 +8,8 @@
 	<body>
 		<header>
 			<div class="centerer">
-				<div class="logo">
-					<a class="header-logo" href="index.html"><img src="img/logo.png" alt="Barbershop" width="111" height="24"></a>
-				</div> 
 				<nav  class="main-nav">
+				<a class="header-logo" href="index.html"><img src="img/logo.png" alt="Barbershop" width="111" height="24"></a>
 				<ul>
 					<li><a href="#">ИНФОРМАЦИЯ</a></li>
 					<li><a href="#">НОВОСТИ</a></li>
@@ -34,45 +32,32 @@
 					</ul>
 				</nav>
 				<div class="catalog-form">
-					<form action="" method="">
-						<span class="form-title">ПРОИЗВОДИТЕЛИ</span>
-						<label>
-							<input type="checkbox" name="" value="">
-							BAXTER OF CALIFORNIA
-						</label>
-						<label>
-							<input type="checkbox" name="" value="">
-							MR NATTY
-						</label>
-						<label>
-							<input type="checkbox" name="" value="">
-							SUAVECITO
-						</label>
-						<label>
-							<input type="checkbox" name="" value="">
-							MALIN+GOETZ
-						</label>
-						<label>
-							<input type="checkbox" name="" value="">
-							MURRAY'S
-						</label>
-						<label>
-							<input type="checkbox" name="" value="">
-							AMERICAN CREW
-						</label>
-						<span class="form-title">ГРУППЫ ТОВАРОВ</span>
-						<label>
-							<input type="radio" name="item-group" value="">
-							БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
-						</label>
-						<label>
-							<input type="radio" name="item-group" value="">
-							СРЕДСТВА ДЛЯ УХОДА
-						</label>
-						<label>
-							<input type="radio" name="item-group" value="">
-							АКСЕССУАРЫ
-						</label>
+					<form action="" method="get">
+						<fieldset>
+							<legend>ПРОИЗВОДИТЕЛИ</legend>
+							<ul>
+								<li><label><input type="checkbox" name="" value="">BAXTER OF CALIFORNIA</label></li>
+								<li><label><input type="checkbox" name="" value="">MR NATTY</label>
+								</li>
+								<li><label><input type="checkbox" name="" value="">SUAVECITO</label>
+								</li>
+								<li><label><input type="checkbox" name="" value="">MALIN+GOETZ</label>
+								</li>
+								<li><label><input type="checkbox" name="" value="">MURRAY'S</label>
+								</li>
+								<li><label><input type="checkbox" name="" value="">AMERICAN CREW</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset>
+							<legend class="form-title">ГРУППЫ ТОВАРОВ</legend>
+								<li><label><input type="radio" name="item-group" value="">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+								</li>
+								<li><label><input type="radio" name="item-group" value="">СРЕДСТВА ДЛЯ УХОДА</label>
+								</li>
+								<li><label><input type="radio" name="item-group" value="">АКСЕССУАРЫ</label>
+								</li>
+						</fieldset>
 						<button type="submit" class="btn">Показать</button>
 					</form>
 				</div>
@@ -87,8 +72,10 @@
 								<span class="item-mark">«BAXTER OF CALIFORNIA»</span>
 							</a>
 						</h2>
-						<b class="catalog-item-price">2 900 РУБ.</b>
-   						<a href="#" class="btn btn-buy">Купить</a>
+						<div class="buy">
+							<b class="catalog-item-price">2 900 РУБ.</b>
+   							<a href="#" class="btn btn-buy">Купить</a>
+   						</div>
 					</article>
 					<article class="catalog-item">
 						<a href="#">
@@ -100,8 +87,10 @@
 									<span class="item-mark">«BAXTER OF CALIFORNIA»</span>
 								</a>
 						</h2>
-            			<b class="catalog-item-price">750 РУБ.</b>
-   						<a href="#" class="btn btn-buy">Купить</a>
+            			<div class="buy">
+            				<b class="catalog-item-price">750 РУБ.</b>
+   							<a href="#" class="btn btn-buy">Купить</a>
+   						</div>
 					</article>
 					<article class="catalog-item">
 						<a href="#">
@@ -113,8 +102,10 @@
 									<span class="item-mark">«SUAVECITO»</span>
 								</a>
 						</h2>
-            			<b class="catalog-item-price">290 РУБ.</b>
-   						<a href="#" class="btn btn-buy">Купить</a>
+            			<div class="buy">
+            				<b class="catalog-item-price">290 РУБ.</b>
+   							<a href="#" class="btn btn-buy">Купить</a>
+   						</div>
 					</article>
 					<article class="catalog-item">
 						<a href="#">
@@ -126,8 +117,10 @@
 								<span class="item-mark">«AMERICAN CREW»</span>
 							</a>
 						</h2>
-            			<b class="catalog-item-price">500 РУБ.</b>
-   						<a href="#" class="btn btn-buy">Купить</a>
+            			<div class="buy">
+            				<b class="catalog-item-price">500 РУБ.</b>
+   							<a href="#" class="btn btn-buy">Купить</a>
+   						</div>
 					</article>
 					<article class="catalog-item">
 						<a href="#">
@@ -139,8 +132,10 @@
 								<span class="item-mark">«AMERICAN CREW»</span>
 							</a>
 						</h2>
-            			<b class="catalog-item-price">300 РУБ.</b>
-   						<a href="#" class="btn btn-buy">Купить</a>
+            			<div class="buy">
+            				<b class="catalog-item-price">300 РУБ.</b>
+   							<a href="#" class="btn btn-buy">Купить</a>
+   						</div>
 					</article>
 					<article class="catalog-item">
 						<a href="#">
@@ -152,8 +147,10 @@
 								<span class="item-mark">«BAXTER OF CALIFORNIA»</span>
 							</a>
 						</h2>
-            			<b class="catalog-item-price">3 900 РУБ.</b>
-   						<a href="#" class="btn btn-buy">Купить</a>
+            			<div class="buy">
+            				<b class="catalog-item-price">3 900 РУБ.</b>
+   							<a href="#" class="btn btn-buy">Купить</a>
+   						</div>
 					</article>
 					<div class="catalog-page-number">
 					<ul>
