@@ -4,6 +4,7 @@ body {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 24px;
+	background: url("../img/body.png") repeat; 
 }
 
 h1.section-title {
@@ -22,4 +23,124 @@ h2.section-title {
 	line-height: 18px;
 }
 
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
+.main-header {
+	background: url("../img/header.png");
+	margin-bottom: 54px;
+}
+
+.centerer {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.main-nav {
+	width: 780px;
+	display: inline-block;
+}
+
+.user-block {
+	width: 140px;
+	display: inline-block;
+}
+
+.main-nav ul, .main-nav li, .main-nav img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.breadcrumbs li{
+	display: inline-block;	
+}
+
+.secondary-nav {
+	margin-bottom: 53px;
+}
+
+.catalog-form {
+	float: left;
+	width: 220px;
+	padding: 10px;
+	padding-left: 0;
+}
+
+.catalog-form ul {
+	list-style: none;
+}
+
+.catalog-form li {
+	padding-top: 5px;
+}
+
+.catalog-form button {
+	margin-top: 10px;
+}
+
+.catalog {
+	float: left;
+	width: 700px;
+	padding: 10px;
+	padding-right: 0;
+}
+
+.catalog-item {
+	float: left;
+	height: 286px;
+}
+
+.catalog-item span {
+	display: block;
+}
+
+.catalog-item:nth-child(3n) {
+	padding-right: 0;
+}
+
+.page-number {
+	float: left;
+}
+
+.page-number li {
+	display: inline-block;
+	padding-right: 7px;
+}
+
+.main-footer {
+	background: url("../img/footer.png");
+	margin-top: 49px;
+}
+
+.footer-left {
+	float: left;
+	width: 310px;
+	padding-top: 58px;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	padding-left: 0;
+}
+
+.footer-center {
+	float: left;
+	width: 141px;
+	padding-top: 58px;
+	padding-bottom: 51px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 70px;
+	text-align: center;
+}
+
+.footer-right {
+	float: right;
+	padding-top: 58px;
+	padding-bottom: 51px;
+	padding-left: 10px;
+	padding-right: 0;
+	text-align: center;
+}
