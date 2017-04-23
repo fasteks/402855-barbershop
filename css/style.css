@@ -114,12 +114,12 @@ h2.section-title {
 .main-footer {
 	background: url("../img/footer.png");
 	margin-top: 49px;
+	padding-top: 58px;
 }
 
 .footer-left {
 	float: left;
 	width: 310px;
-	padding-top: 58px;
 	padding-bottom: 30px;
 	padding-right: 10px;
 	padding-left: 0;
@@ -128,7 +128,6 @@ h2.section-title {
 .footer-center {
 	float: left;
 	width: 141px;
-	padding-top: 58px;
 	padding-bottom: 51px;
 	padding-right: 10px;
 	padding-left: 10px;
@@ -138,7 +137,6 @@ h2.section-title {
 
 .footer-right {
 	float: right;
-	padding-top: 58px;
 	padding-bottom: 51px;
 	padding-left: 10px;
 	padding-right: 0;
