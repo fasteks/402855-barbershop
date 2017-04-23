@@ -59,9 +59,17 @@ h2.section-title {
 	display: inline-block;	
 }
 
+.breadcrumbs a {
+	text-decoration: none;
+}
+
 .secondary-nav {
 	margin-bottom: 53px;
 }
+
+
+                             /* catalog*/
+
 
 .catalog-form {
 	float: left;
@@ -141,4 +149,31 @@ h2.section-title {
 	padding-left: 10px;
 	padding-right: 0;
 	text-align: center;
+}
+
+
+                            /* catalog-item*/
+
+
+.item-gallery {
+	float: left;
+	width: 467px;
+	height: 668px;
+}
+
+.item-gallery img {
+	box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+}
+
+.item-gallery img:nth-child(1) {
+	margin-bottom: 21px;
+}
+
+.item-gallery img:nth-child(2), .item-gallery img:nth-child(3) {
+	margin-right: 17px;
+}
+
+.item-review {
+	float: right;
+	width: 400px;
 }
